@@ -120,7 +120,6 @@ footer {
   display: flex;
   justify-content: flex-start;
   background-color: #85bb65;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -168,12 +167,6 @@ footer {
 
   .card {
     width: 50%;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  footer {
-    position: fixed;
   }
 }
 
