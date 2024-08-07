@@ -31,13 +31,13 @@ module.exports = {
   devtool: 'source-map',
   devServer: {
     host: '0.0.0.0',
-    port: process.env.DEV_SERVER_PORT,
+    port: '8080',
     publicPath: '/',
     contentBase: serverPublicPath,
     watchContentBase: true,
     stats: 'minimal',
     proxy: {
-      '/api': `http://localhost:${process.env.PORT}`
+      '/api': `http://localhost:8080}`
     }
   },
   performance: {

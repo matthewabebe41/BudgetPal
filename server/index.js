@@ -439,7 +439,7 @@ app.delete('/api/notes/:noteId', function (req, res, next) {
     });
 });
 
-app.listen(3000, () => {
+app.listen(8080, () => {
   // eslint-disable-next-line no-console
-  console.log(`express server listening on 3000}`);
+  console.log(`express server listening on 8080`);
 });
