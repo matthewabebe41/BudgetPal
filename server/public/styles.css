@@ -1,5 +1,10 @@
-body {
-  background-color: whitesmoke;
+body, html {
+  height: 100%;
+}
+
+#root {
+  position: relative;
+  height: 100%;
 }
 
 a {
@@ -54,7 +59,7 @@ a {
 }
 
 .content-container {
-  padding-bottom: 75px;
+  margin-bottom: 75px;
 }
 
 .card {
@@ -120,12 +125,16 @@ footer {
   display: flex;
   justify-content: flex-start;
   background-color: #85bb65;
+<<<<<<< HEAD
   left: 0;
   bottom: 0;
+=======
+>>>>>>> 4bbd7445f6768093b02021b6b875340afc1a39ad
   width: 100%;
   text-align: center;
   color: white;
-  height: 50px;
+  position: relative;
+  height: 68px;
 }
 
 .footer-name {
