@@ -20,6 +20,10 @@ a {
   display: none;
 }
 
+.navbar-brand {
+  font-size: x-large;
+}
+
 .hamburger-menu-nav {
   position: absolute;
   background-color: #85bb65 !important;
