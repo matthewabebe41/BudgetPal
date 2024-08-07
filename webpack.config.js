@@ -30,14 +30,14 @@ module.exports = {
   },
   devtool: 'source-map',
   devServer: {
-    host: '0.0.0.0',
-    port: '8080',
+    host: '127.0.0.1',
+    port: '3000',
     publicPath: '/',
     contentBase: serverPublicPath,
     watchContentBase: true,
     stats: 'minimal',
     proxy: {
-      '/api': `http://localhost:8080}`
+      '/api': `http://localhost:3000}`
     }
   },
   performance: {
